@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Portfolio</title>
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">ᴇɴɢɪɴᴇᴇʀ</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome to My Profile</h3>
+            <h1>i am Vijay Kumar</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>An Engineer with diverse skills in network security, cybersecurity, programming, and IT support. I am dedicated to solving real-world problems and contributing to organizational success while continuously growing professionally.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/babuengineer2"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://x.com/i_m__vijay"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/vjaykr/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="vijay resume.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="profile pic.jpg" alt="Profile Picture">
+        </div>
+    </section> 
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="2.jpg" alt="About Me Image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>IT SUPPORT SPECIALIST</h3>
+            <p>With a strong foundation in IT support and a knack for problem-solving, I specialize in providing technical assistance, maintaining network systems, and ensuring smooth operations. My background includes hands-on experience in troubleshooting, system maintenance, and user support.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-network-chart'></i>
+                <h3>Network Engineering</h3>
+                <p>Design and implement secure and efficient network systems tailored to meet organizational needs. Expertise in configuring routers, switches, and managing network infrastructure to ensure seamless connectivity.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-shield'></i>
+                <h3>Cyber Security</h3>
+                <p>Protect sensitive data and systems from cyber threats. Experience in implementing security measures, conducting vulnerability assessments, and responding to security incidents to safeguard digital assets.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-image'></i>
+                <h3>Graphic Design</h3>
+                <p>Create visually compelling designs for various media, including websites, social media, and print. Skilled in Adobe Creative Suite and other design tools to bring creative concepts to life.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-support'></i>
+                <h3>IT Support</h3>
+                <p>Provide comprehensive IT support to resolve technical issues, assist users, and maintain system performance. Proficient in troubleshooting hardware and software problems, and ensuring optimal IT operations.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-photo-album'></i>
+                <h3>Photoshop</h3>
+                <p>Expertise in Adobe Photoshop for creating and editing high-quality images. From retouching to complex design work, leverage Photoshop skills to produce stunning visuals.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Tech Knowledge</h3>
+                <p>In-depth knowledge of various technologies and platforms. Stay updated with the latest advancements in tech to provide innovative solutions and keep systems running smoothly.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="3.jpg" alt="Web Design Project">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Developed a modern, responsive website with a focus on user experience and accessibility. Utilized HTML, CSS, and JavaScript to create an engaging online presence.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- Repeat similar blocks for more portfolio items -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+    
+        <form id="contactForm">
+            <div class="input-box">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email id" required>
+            </div>
+            <div class="input-box">
+                <input type="number" id="mobileNumber" placeholder="Mobile Number" required>
+                <input type="text" id="emailSubject" placeholder="Email Subject" required>
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send a Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; Template Design By <a href="https://www.linkedin.com/in/sachin-kumar-28a38a317/" style="color: inherit; text-decoration: underline;">Sachin Kumar</a></p>
+        </div>
+        <div class="footer-iconTop" id="scrollToTop"><i class='bx bx-up-arrow-alt'></i></div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <!-- Custom JS -->
+    <script src="java.js"></script>
+
+</body>
+</html>
